@@ -4,7 +4,7 @@ Email: bana.saa@gmail.com
 LinkedIn: https://www.linkedin.com/in/rahulsinghbana
 -->
 
-# Document Intelligence
+# Enterprise Document Intelligence
 
 Multi-user, RBAC-secured document chat platform with hybrid retrieval
 (BM25 + vector via Weaviate), a pluggable re-ranker, and layered short-term /
