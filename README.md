@@ -74,9 +74,6 @@ Ollama via `.env`.
 
 ![14. User chat page screen](project-screenshot/14-user-chat-page-screen.png)
 
-**15. README**
-
-![15. README](project-screenshot/15-README.png)
 
 
 ## Stack
