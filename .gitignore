@@ -18,7 +18,7 @@ __pycache__/
 .mypy_cache/
 .coverage
 htmlcov/
-
+PLAN.md
 # Local databases and uploaded files
 *.db
 *.sqlite3
