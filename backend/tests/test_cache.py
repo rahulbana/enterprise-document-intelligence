@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Unit tests for app/core/cache.py: the hit/miss/error paths, using a fake
 # in-memory client (monkeypatched in place of the real Redis connection) so

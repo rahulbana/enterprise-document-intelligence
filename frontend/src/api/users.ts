@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 
 import type { User, UserRole } from '../types'
 import type { Page } from './client'

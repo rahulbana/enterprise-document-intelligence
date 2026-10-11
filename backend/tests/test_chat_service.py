@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Unit tests for chat session/message CRUD and ownership rules — the
 # streaming reply pipeline itself is covered end-to-end via the API in

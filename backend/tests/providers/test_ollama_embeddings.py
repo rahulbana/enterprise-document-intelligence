@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # No live Ollama server is used in tests; a fake client verifies the
 # provider's own logic (prefixing, response shape, dimension probing).

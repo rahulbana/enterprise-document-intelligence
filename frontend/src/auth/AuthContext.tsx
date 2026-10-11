@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // App-wide auth state provider: current user, sign in/up/out. On mount,
 // restores the session from a stored access token by calling /auth/me

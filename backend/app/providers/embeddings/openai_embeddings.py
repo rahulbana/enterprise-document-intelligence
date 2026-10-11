@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Embedding provider backed by the OpenAI API. OpenAI's embedding models are
 # symmetric, so query/document instruction prefixes are not applied here.

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # VectorRepository interface. replace_document_chunks is upsert-by-document:
 # it atomically swaps out every chunk previously stored for a document for a

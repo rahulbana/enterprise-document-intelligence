@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Verifies the factory dispatches to the right reranker class per
 # RERANKER_PROVIDER setting, without loading the real cross-encoder model

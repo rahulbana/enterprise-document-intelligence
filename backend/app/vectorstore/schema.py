@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # DocumentChunk collection definition. No vectorizer module is configured
 # (matches docker-compose's DEFAULT_VECTORIZER_MODULE=none) — every chunk's

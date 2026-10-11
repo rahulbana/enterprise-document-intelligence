@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Regression test for a subtle CORS gap: browsers only auto-expose a small
 # CORS-safelisted set of response headers to JS across origins (Content-Type,

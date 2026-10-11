@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Integration tests for the Phase 7 observability/rate-limit stack: the
 # request-ID middleware, the /metrics endpoint, and slowapi enforcement —

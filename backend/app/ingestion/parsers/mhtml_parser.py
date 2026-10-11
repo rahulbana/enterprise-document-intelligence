@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # MHTML is a MIME envelope (same format email uses) wrapping an HTML part
 # plus its inline resources — stdlib `email` unwraps the MIME structure to

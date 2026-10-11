@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Same header=value, row-numbered shape as XlsxParser/CsvParser, one
 # element per sheet (table). odfpy doesn't compute/re-expose formulas the

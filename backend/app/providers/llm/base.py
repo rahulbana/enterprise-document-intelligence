@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # LLMProvider interface. messages follow the OpenAI chat-message shape
 # ({"role": "system"|"user"|"assistant"|"tool", "content": str}) since both

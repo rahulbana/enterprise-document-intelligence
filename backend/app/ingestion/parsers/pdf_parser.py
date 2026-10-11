@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # PDF parsing via pdfplumber: real per-page prose text plus real table
 # structure (row/column-aware, not linearized like plain text extraction

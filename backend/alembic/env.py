@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Alembic runtime environment: points migrations at Settings.DATABASE_URL
 # and Base.metadata so autogenerate sees every ORM model.

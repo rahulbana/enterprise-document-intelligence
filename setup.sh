@@ -2,6 +2,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # One-time (or repeatable) environment setup: creates the backend virtualenv
 # with Python 3.12, installs backend + frontend dependencies, and seeds .env

@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Shared destructive-action confirmation dialog — replaces window.confirm()
 // across the delete flows (documents, departments) with something that

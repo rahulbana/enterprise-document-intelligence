@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # MemoryRepository implementation backed by Weaviate. One object per
 # session_id: upsert_summary always deletes-then-inserts, same idiom as

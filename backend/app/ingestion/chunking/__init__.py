@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # `chunk_text` re-exported here so existing imports (`from
 # app.ingestion.chunking import chunk_text`) keep working now that this is a

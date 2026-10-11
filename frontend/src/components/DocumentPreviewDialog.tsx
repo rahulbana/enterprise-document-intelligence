@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Read-only in-app preview: PDFs and images render natively (the browser
 // does this for free via a blob URL — no reason to throw that away).

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Request/response shapes for the retrieval debug endpoint (Phase 4). Not a
 # chat endpoint — this just exposes what the retrieval pipeline would hand

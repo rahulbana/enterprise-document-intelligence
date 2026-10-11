@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Append-only authentication audit log. Each row's entry_hash covers its own
 # fields plus the previous row's entry_hash, forming a hash chain: editing or

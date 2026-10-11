@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # WebSearchProvider interface — the web_search chat tool (see
 # chat_service.py) calls this, not Tavily (or whichever provider) directly,

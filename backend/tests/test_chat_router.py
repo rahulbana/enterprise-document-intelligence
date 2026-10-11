@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Integration tests for chat session CRUD + the SSE streaming reply
 # endpoint, through the real API with fakes (LLM/embeddings/vector

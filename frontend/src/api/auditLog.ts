@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 
 import type { AuditChainVerification, AuthAuditLogEntry, AuthEventType } from '../types'
 import type { Page } from './client'

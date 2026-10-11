@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Local embedding provider using sentence-transformers — no external service
 # required. Default model is all-MiniLM-L6-v2 (symmetric, no instruction

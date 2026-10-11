@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Admin screen: read-only view of the auth audit log (register/login/
 // activation events), plus an on-demand tamper check that recomputes the

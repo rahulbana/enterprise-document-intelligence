@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Generic Redis-backed cache for hot, rarely-changing reads (Phase 7) — e.g.
 # the department directory, read on nearly every admin/document screen.

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Local-disk StorageBackend. Root directory comes from
 # Settings.LOCAL_STORAGE_PATH; swapping to S3/GCS later means adding a new

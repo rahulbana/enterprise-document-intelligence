@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Request/response shapes for chat sessions/messages. The streaming reply
 # itself isn't a JSON response (it's text/event-stream, see chat_router), so

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Request-ID + Prometheus request metrics, as one raw ASGI middleware —
 # deliberately NOT Starlette's BaseHTTPMiddleware, which is documented to

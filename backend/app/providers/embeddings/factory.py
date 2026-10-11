@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Picks the configured EmbeddingProvider implementation. Cached so the
 # (potentially expensive-to-load, e.g. sentence-transformers) provider

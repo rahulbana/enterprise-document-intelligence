@@ -2,6 +2,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Dev entrypoint: brings up Redis (docker compose if Docker's available,
 # otherwise the native redis-server binary directly — no Docker required)

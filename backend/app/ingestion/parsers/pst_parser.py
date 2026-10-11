@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # .pst is a complex mailbox container format with no usable pure-Python
 # reader (pypff needs a C build that's notoriously unreliable to install).

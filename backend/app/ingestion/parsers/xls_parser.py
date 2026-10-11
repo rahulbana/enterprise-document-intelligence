@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Legacy binary Excel (97-2003). Same header=value, row-numbered shape as
 # XlsxParser — xlrd is a values-only reader for this format, so unlike

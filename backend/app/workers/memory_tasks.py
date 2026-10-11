@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Thin Celery wrapper around app.services.memory_service: wires up real
 # dependencies (a fresh DB session per task, the configured embedding/LLM/

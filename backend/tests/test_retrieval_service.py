@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Unit tests for the retrieval pipeline: real DB session (for RBAC-relevant
 # user/department rows), fake embedding provider/vector store/reranker — no

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Unit tests for the real SqliteMemoryRepository (not the fake) — the one
 # other test files exercise indirectly through FakeMemoryRepository, so this

@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Styled replacement for a bare <input type="file"> — click-to-browse or
 // drag-and-drop, selected filename shown with a remove button instead of

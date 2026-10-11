@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Integration tests for the /retrieval/debug endpoint: real upload -> ingest
 # -> retrieve pipeline through the test client, fakes standing in for

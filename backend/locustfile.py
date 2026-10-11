@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Load-test scenario (Phase 7), sized toward the project's 1M-traffic
 # target. Run against a real running backend (./start.sh), NOT the test

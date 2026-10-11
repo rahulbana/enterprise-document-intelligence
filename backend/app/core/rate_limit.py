@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Per-IP rate limiting (Phase 7). Default storage is in-process memory —
 # fine for a single uvicorn worker (this app's current deployment) but not

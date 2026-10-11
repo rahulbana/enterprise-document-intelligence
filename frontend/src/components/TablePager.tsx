@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Prev/Next pager for the offset/limit-paginated list endpoints (documents,
 // departments, users — see PageParams on the backend). Plain client-side

@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Indeterminate progress bar shown in place of a bare "Loading…" line while
 // a table's data is in flight — duration is unknown (this app talks to a

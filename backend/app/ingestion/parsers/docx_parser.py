@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Body paragraphs are one element (docx has no reliable page-boundary
 # concept via python-docx, unlike PDF/PPTX/XLSX); tables and non-empty

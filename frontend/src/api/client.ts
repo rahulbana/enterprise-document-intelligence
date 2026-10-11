@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Fetch wrapper shared by every resource client: attaches the bearer token,
 // and on a 401 tries exactly one silent refresh-and-retry before giving up.

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Chat session/message CRUD plus the streaming reply pipeline: persist the
 # user's message, retrieve+rerank relevant chunks (Phase 4's

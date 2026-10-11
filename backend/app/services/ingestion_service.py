@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Parse -> chunk -> embed -> upsert for a single document version. Kept
 # framework-agnostic (no Celery import) so it's directly unit-testable and

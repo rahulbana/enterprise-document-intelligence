@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Short-term chat memory: a Redis list per session holding the last N
 # messages, so prompt assembly doesn't hit the DB on every turn. Redis is an

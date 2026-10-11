@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Shared "turn a parsed JSON/YAML object into elements" logic — a leading
 # underscore since this isn't itself a registered Parser, just a helper the

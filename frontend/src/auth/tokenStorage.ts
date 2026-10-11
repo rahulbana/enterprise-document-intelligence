@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Access/refresh token persistence. localStorage is the standard simple
 // choice for a JWT-bearer SPA; it trades some XSS exposure for avoiding

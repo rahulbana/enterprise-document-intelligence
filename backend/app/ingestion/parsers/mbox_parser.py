@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # One header + one body element per message, same shape as EmlParser (an
 # mbox is just a sequence of RFC 822 messages). stdlib mailbox.mbox wants a

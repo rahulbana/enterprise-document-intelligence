@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Weaviate connection, built from Settings.WEAVIATE_URL (+ the separate gRPC
 # port the v4 client needs). Cached so the connection is opened once per

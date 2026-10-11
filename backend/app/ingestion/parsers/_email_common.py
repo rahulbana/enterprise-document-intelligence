@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Shared "stdlib email.message.Message -> elements" logic for EmlParser and
 # MboxParser (each message in an mbox is the same Message type EML uses).

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # ChatMemory ORM model — backs SqliteMemoryRepository (app/memory). One row
 # per chat session's rolling long-term summary. No FK constraint to

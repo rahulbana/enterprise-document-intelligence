@@ -1,6 +1,7 @@
 // Name: Rahul Singh Bana
 // Email: bana.saa@gmail.com
 // LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+// Repo: https://github.com/rahulbana/enterprise-document-intelligence
 //
 // Bootstrap-styled checkbox with the one thing react-bootstrap's Form.Check
 // lacks: a tri-state "indeterminate" (used by the select-all header boxes).

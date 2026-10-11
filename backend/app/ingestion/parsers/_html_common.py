@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Shared "HTML soup -> heading-sectioned elements" logic for HtmlParser,
 # XhtmlParser (same markup, different MIME wrapper), and MhtmlParser (MIME

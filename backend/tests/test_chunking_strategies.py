@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Unit tests for the pluggable ChunkingStrategy layer (Phase 11) — the
 # factory's dispatch, and each strategy's actual chunk() entry point (the

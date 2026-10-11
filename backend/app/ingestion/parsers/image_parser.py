@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Standalone image uploads (screenshots, scanned pages saved as an image,
 # HEIC photos, ...) — OCR'd directly with pytesseract, no PDF wrapper

@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # StorageBackend interface. save() streams the input in chunks (never loads
 # a whole file into memory) and returns (size_bytes, sha256_hex) computed in

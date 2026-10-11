@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Local reranker using a sentence-transformers CrossEncoder — no external
 # service required. Default model is cross-encoder/ms-marco-MiniLM-L-6-v2.

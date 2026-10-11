@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # MemoryRepository interface — long-term chat memory (Phase 6). One rolling
 # summary object per chat session: each summarization run replaces it with a

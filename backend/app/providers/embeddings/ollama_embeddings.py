@@ -1,6 +1,7 @@
 # Name: Rahul Singh Bana
 # Email: bana.saa@gmail.com
 # LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+# Repo: https://github.com/rahulbana/enterprise-document-intelligence
 #
 # Embedding provider backed by a running Ollama server (default model:
 # nomic-embed-text). Requires `ollama pull nomic-embed-text` on the host
