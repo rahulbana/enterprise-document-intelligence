@@ -1,0 +1,28 @@
+# Name: Rahul Singh Bana
+# Email: bana.saa@gmail.com
+# LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+#
+# Lint / format / test tool configuration for the backend.
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+# B008: FastAPI's Depends(...) is meant to live in argument defaults —
+# that's the documented DI pattern, not the mutable-default-argument bug
+# this rule exists to catch.
+ignore = ["B008"]
+
+[tool.ruff.lint.per-file-ignores]
+# Alembic autogenerates these; they're not hand-formatted.
+"alembic/versions/*.py" = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

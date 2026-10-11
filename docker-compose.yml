@@ -1,0 +1,63 @@
+# Name: Rahul Singh Bana
+# Email: bana.saa@gmail.com
+# LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+#
+# Local infra for development: Weaviate (vector store), Redis (Celery
+# broker/result backend and short-term chat memory), and Postgres (Phase 8+
+# — SQLite is dev-only from here on; set DATABASE_URL to
+# postgresql+psycopg://document_intelligence:document_intelligence@localhost:5433/document_intelligence
+# and `alembic upgrade head` to use it). The API, Celery worker, and
+# frontend run natively on the host via start.sh, not in containers, to keep
+# the dev inner loop fast.
+
+services:
+  weaviate:
+    image: semitechnologies/weaviate:1.27.0
+    container_name: doc-intel-weaviate
+    ports:
+      - "8080:8080"
+      - "50051:50051"
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+      PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
+      DEFAULT_VECTORIZER_MODULE: "none"
+      ENABLE_MODULES: ""
+      CLUSTER_HOSTNAME: "node1"
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: doc-intel-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: doc-intel-postgres
+    # 5433, not Postgres's default 5432 — avoids colliding with a Postgres
+    # already running natively on the host (common on macOS dev machines).
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: document_intelligence
+      POSTGRES_PASSWORD: document_intelligence
+      POSTGRES_DB: document_intelligence
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U document_intelligence"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  weaviate_data:
+  redis_data:
+  postgres_data:

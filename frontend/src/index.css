@@ -1,0 +1,256 @@
+/*
+Name: Rahul Singh Bana
+Email: bana.saa@gmail.com
+LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+
+Global styles on top of Bootstrap 5 (Bootswatch "Materia" = Material Design).
+Everything layout/spacing related uses Bootstrap utilities in the JSX; only
+the few things Bootstrap has no equivalent for live here.
+*/
+
+:root {
+  --app-nav-height: 56px;
+  /* Bootswatch Materia turns on Bootstrap's built-in gradient overlay for
+     navbars, buttons and badges; this variable is what they all reference,
+     so setting it to none keeps every surface a flat colour. */
+  --bs-gradient: none;
+}
+
+body {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.navbar.app-navbar {
+  height: var(--app-nav-height);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Page container: generous bottom space so content never sits against the
+   viewport edge. */
+.app-page {
+  padding: 1.5rem 1.5rem 4rem;
+}
+
+/* Indeterminate loading bar (LoadingBar component) — duration is unknown
+   while data is in flight, so this sweeps rather than fills. */
+@keyframes loading-sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.loading-sweep-bar {
+  width: 33%;
+  height: 100%;
+  animation: loading-sweep 1.2s ease-in-out infinite;
+}
+
+/* Home tiles */
+.feature-tile {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+}
+.feature-tile:hover {
+  transform: translateY(-2px);
+  color: inherit;
+}
+.feature-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  color: #fff;
+}
+
+/* Chat layout: sidebar + thread fill the viewport below the navbar. */
+.chat-layout {
+  height: calc(100vh - var(--app-nav-height));
+  padding: 1.5rem 1.5rem 2rem;
+}
+.chat-sidebar {
+  width: 16rem;
+  flex-shrink: 0;
+  overflow-y: auto;
+}
+.chat-thread {
+  overflow-y: auto;
+  min-height: 0;
+}
+.chat-bubble {
+  max-width: 75%;
+  word-break: break-word;
+}
+.chat-bubble-user {
+  background-color: var(--bs-primary);
+  color: #fff;
+  border-radius: 1rem 1rem 0.25rem 1rem;
+}
+.chat-bubble-user a {
+  color: #fff;
+}
+.chat-bubble-assistant {
+  background-color: #fff;
+  border-radius: 1rem 1rem 1rem 0.25rem;
+}
+.chat-avatar {
+  width: 1.75rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+.session-item {
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.session-item .session-delete {
+  visibility: hidden;
+}
+.session-item:hover .session-delete {
+  visibility: visible;
+}
+.session-item.active {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+.session-item:not(.active):hover {
+  background-color: rgba(33, 150, 243, 0.08);
+}
+
+/* Rendered markdown inside chat bubbles (react-markdown output). */
+.markdown-body > :first-child {
+  margin-top: 0;
+}
+.markdown-body > :last-child {
+  margin-bottom: 0;
+}
+.markdown-body p {
+  margin: 0.25rem 0;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
+  margin: 0.75rem 0 0.4rem;
+  font-weight: 500;
+}
+.markdown-body h1 {
+  font-size: 1.25rem;
+}
+.markdown-body h2 {
+  font-size: 1.15rem;
+  color: var(--bs-primary);
+}
+.markdown-body h3,
+.markdown-body h4 {
+  font-size: 1rem;
+}
+.markdown-body ul,
+.markdown-body ol {
+  margin: 0.25rem 0;
+  padding-left: 1.5rem;
+}
+.markdown-body pre {
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  background: #f5f5f5;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+.markdown-body code {
+  font-size: 0.85em;
+}
+.markdown-body table {
+  margin: 0.5rem 0;
+  border-collapse: collapse;
+}
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #dee2e6;
+  padding: 0.25rem 0.5rem;
+}
+.markdown-body blockquote {
+  margin: 0.5rem 0;
+  padding-left: 0.75rem;
+  border-left: 3px solid #dee2e6;
+  color: #6c757d;
+}
+.chat-bubble-user .markdown-body {
+  color: #fff;
+}
+.chat-bubble-user .markdown-body code {
+  color: #fff;
+}
+
+.chat-drop-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  border: 2px dashed var(--bs-primary);
+  background: rgba(33, 150, 243, 0.06);
+  color: var(--bs-primary);
+  border-radius: inherit;
+}
+
+.file-drop-zone {
+  border: 2px dashed #ced4da;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.file-drop-zone.dragging {
+  border-color: var(--bs-primary);
+  background: rgba(33, 150, 243, 0.06);
+}
+
+/* Navbar: white pill behind the active route, like Material's selected tab. */
+.app-navbar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.375rem;
+}
+.app-navbar .dropdown-toggle::after {
+  display: none;
+}
+
+@keyframes spin-anim {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin-anim 1s linear infinite;
+}
+
+.dropdown-toggle.no-caret::after {
+  display: none;
+}
+
+/* Materia removes the right padding on selects, so the dropdown arrow sits
+   on top of the selected text; restore room for it. */
+.form-select,
+.form-select.form-select-sm {
+  padding-right: 1.75rem;
+  min-width: 7rem;
+}
+
+/* Materia uppercases every .btn; keep that for real action buttons but not
+   for link-style buttons (version links, citations, session titles). */
+.btn-link,
+.session-item .btn {
+  text-transform: none;
+  letter-spacing: normal;
+}

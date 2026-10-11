@@ -1,0 +1,86 @@
+# Name: Rahul Singh Bana
+# Email: bana.saa@gmail.com
+# LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+#
+# Runtime dependencies for the Document Intelligence API (Phase 0 scope).
+# Later phases append to this file as new capabilities (Celery, Weaviate
+# client, providers, parsers, auth) are actually implemented.
+
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.32,<0.33
+pydantic>=2.9,<3
+pydantic-settings>=2.6,<3
+sqlalchemy>=2.0,<2.1
+alembic>=1.13,<2
+
+# Embedding providers (pluggable: ollama | sentence_transformers | openai)
+# numpy/scipy pinned: PyPI's last macOS-x86_64 torch wheel is 2.2.2, built
+# against the NumPy 1.x ABI, so it silently fails ("Numpy is not available")
+# under NumPy 2.x. scipy is pinned to match (its own NumPy 2 requirement
+# would otherwise force NumPy back up).
+numpy<2
+scipy<1.14
+sentence-transformers>=3.2,<4
+einops>=0.8,<1
+ollama>=0.4,<1
+openai>=1.54,<2
+# Cohere reranker (RERANKER_PROVIDER=cohere): a plain REST call, so httpx
+# alone covers it — no need for the full `cohere` SDK. Already a transitive
+# dependency (via starlette), declared directly since app code now imports it.
+httpx>=0.27,<1
+
+# Auth (Phase 1): password hashing, JWTs, EmailStr validation
+bcrypt>=4.2,<5
+pyjwt>=2.9,<3
+email-validator>=2.2,<3
+
+# Documents (Phase 2): multipart/form-data parsing for file uploads
+python-multipart>=0.0.12,<0.1
+
+# Ingestion (Phase 3): background task queue, vector store, document parsers
+celery[redis]>=5.4,<6
+weaviate-client>=4.9,<5
+python-docx>=1.1,<2
+
+# Chat (Phase 5): direct Redis client for the short-term memory buffer
+# (celery[redis] already pulls this in transitively; pinned explicitly since
+# app code now imports it directly, not just through Celery).
+redis>=5.0,<7
+
+# Hardening (Phase 7): per-route rate limiting and Prometheus metrics.
+slowapi>=0.1.9,<0.2
+prometheus-client>=0.20,<0.27
+
+# Postgres (Phase 8): psycopg3 binary — SQLAlchemy 2.0's recommended modern
+# driver, no separate build toolchain needed. SQLite stays the dialect used
+# by DATABASE_URL's default; this only activates when DATABASE_URL points
+# at postgresql+psycopg://.
+psycopg[binary]>=3.1,<4
+
+# Expansion parsers (Phase 9): PDF, PPTX, XLSX, and OCR for scanned PDF
+# pages/standalone images. OCR needs two system binaries on the host:
+# `tesseract` (brew install tesseract / apt install tesseract-ocr) and, for
+# scanned-PDF-page rendering specifically, poppler's `pdftoppm` (brew
+# install poppler / apt install poppler-utils) via pdf2image. Same
+# graceful-failure path as any other parser error if either is missing: the
+# ingestion task catches it and marks the version FAILED with a message
+# instead of crashing the worker.
+python-pptx>=1.0,<2
+openpyxl>=3.1,<4
+pdf2image>=1.17,<2
+pytesseract>=0.3.10,<0.4
+
+# Expansion parsers (Phase 10): full format coverage. pdfplumber replaces
+# pypdf (table extraction, no numpy/torch conflict — see PLAN.md Phase 10
+# for why Docling was rejected). .doc/.ppt (legacy binary Office) and .pst
+# need no library here: .pst shells out to libpst's `readpst` CLI (brew
+# install libpst / apt install pst-utils) instead.
+pdfplumber>=0.11,<0.12
+striprtf>=0.0.26,<0.1
+odfpy>=1.4,<2
+beautifulsoup4>=4.12,<5
+EbookLib>=0.18,<0.19
+xlrd>=2.0,<3
+pillow-heif>=0.18,<1
+extract-msg>=0.54,<0.55
+PyYAML>=6.0,<7

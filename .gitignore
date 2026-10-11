@@ -1,0 +1,44 @@
+# Name: Rahul Singh Bana
+# Email: bana.saa@gmail.com
+# LinkedIn: https://www.linkedin.com/in/rahulsinghbana
+
+# ---- Secrets / local config (never commit real keys) ----
+.env
+.env.*
+!.env.example
+
+# ---- Python / backend ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local databases and uploaded files
+*.db
+*.sqlite3
+backend/storage/
+
+# Redis dumps written by a local redis-server
+dump.rdb
+
+# ---- Frontend ----
+node_modules/
+dist/
+*.tsbuildinfo
+*.local
+npm-debug.log*
+
+# ---- Tooling / editor / OS ----
+.DS_Store
+.idea/
+.vscode/
+*.log
+.playwright-mcp/
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
