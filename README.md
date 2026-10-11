@@ -12,6 +12,73 @@ long-term chat memory. LLM and embedding providers switch between OpenAI and
 Ollama via `.env`.
 
 
+## Screenshots
+
+**1. Login screen**
+
+![1. Login screen](project-screenshot/01-Login-screen.png)
+
+**1.1. Login error screen**
+
+![1.1. Login error screen](project-screenshot/01_1-Login-error-screen.png)
+
+**2. Signup screen**
+
+![2. Signup screen](project-screenshot/02-Signup-screen.png)
+
+**3. Admin landing screen**
+
+![3. Admin landing screen](project-screenshot/03-Admin-landing-screen.png)
+
+**4. Department list screen**
+
+![4. Department list screen](project-screenshot/04-department-list-screen.png)
+
+**5. Chat landing screen**
+
+![5. Chat landing screen](project-screenshot/05-chat-landing-screen.png)
+
+**6. Chat screen**
+
+![6. Chat screen](project-screenshot/06-chat-screen.png)
+
+**7. Admin documents list**
+
+![7. Admin documents list](project-screenshot/07-admin-documents-list.png)
+
+**8. Audit logs**
+
+![8. Audit logs](project-screenshot/08-audit-logs.png)
+
+**9. Users list**
+
+![9. Users list](project-screenshot/09-users-list.png)
+
+**10. User login screen**
+
+![10. User login screen](project-screenshot/10-user-login-screen.png)
+
+**11. User document list screen**
+
+![11. User document list screen](project-screenshot/11-user-document-list-screen.png)
+
+**12. User chatlist screen**
+
+![12. User chatlist screen](project-screenshot/12-user-chatlist-screen.png)
+
+**13. User chat page screen**
+
+![13. User chat page screen](project-screenshot/13-user-chat-page-screen.png)
+
+**14. User chat page screen**
+
+![14. User chat page screen](project-screenshot/14-user-chat-page-screen.png)
+
+**15. README**
+
+![15. README](project-screenshot/15-README.png)
+
+
 ## Stack
 
 - **Backend**: FastAPI, SQLAlchemy 2.0, Alembic, SQLite (Postgres-ready),
