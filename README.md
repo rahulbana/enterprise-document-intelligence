@@ -11,9 +11,6 @@ Multi-user, RBAC-secured document chat platform with hybrid retrieval
 long-term chat memory. LLM and embedding providers switch between OpenAI and
 Ollama via `.env`.
 
-See [`PLAN.md`](./PLAN.md) for the full architecture and phased build plan
-(currently through Phase 8 — Postgres migration path; SQLite is dev-only
-from this point, see below).
 
 ## Stack
 
